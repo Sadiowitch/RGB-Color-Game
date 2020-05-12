@@ -66,15 +66,15 @@ button:hover {
 }
 
 #container {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(3, minmax(auto, 10em));
-    grid-template-rows: repeat(2, minmax(auto, 10em));
-    gap: 1rem;
-    margin: 20px auto;
+    margin: 1% auto;
+    max-width: 600px;
 }
 
 .square {
+    width: 30%;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
     border-radius: 15px;
     background-color: gray;
     transition: background 0.3s;
