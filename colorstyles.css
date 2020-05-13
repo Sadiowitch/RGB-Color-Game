@@ -17,8 +17,8 @@ h1 {
     text-transform: uppercase;
     margin: 0;
     text-align: center;
-    line-height: 1.1;
-    font-size: 1.75rem;
+    line-height: 1;
+    font-size: 5.25vmin;
 }
 
 #bar {
@@ -56,7 +56,7 @@ button {
     text-transform: uppercase;
     font-weight: 700;
     display: inline-block;
-    width: 10%;
+    width: 18%;
 }
 
 button:hover {
