@@ -43,14 +43,16 @@ function setUpSquares() {
             var clickedColor = this.style.backgroundColor;
                 // compare color to picked color;
                 if (clickedColor === pickedColor) {
-                    messageDisplay.textContent = "Correct!";
+                    messageDisplay.innerHTML = "<i class='fas fa-check-circle'></i>";
+                    messageDisplay.style.color = "rgb(55, 224, 29)";
                     changeColors(clickedColor);
                     header.style.backgroundColor = clickedColor;
                     resetButton.textContent = "Play Again?";
                 } else {
                     this.style.backgroundColor = "rgb(48, 48, 48)";
                     this.style.boxShadow = "none";
-                    messageDisplay.textContent = "Try Again";
+                    messageDisplay.innerHTML = "<i class='fas fa-times-circle'></i>";
+                    messageDisplay.style.color = "rgb(224, 29, 29)";
                 }
         })
     }
