@@ -26,6 +26,8 @@ h1 {
     width: 100%;
     box-shadow: 1px 1px 3px rgb(34, 34, 34);
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 #colorDisplay {
@@ -54,9 +56,10 @@ button {
 #message {
     color: black;
     text-transform: uppercase;
-    font-weight: 700;
     display: inline-block;
-    width: 18%;
+    font-size: 1.25em;
+    padding: 6px;
+    width: 19%;
 }
 
 button:hover {
